@@ -49,4 +49,16 @@ public class Operacion {
         int suma = getNumero1() + getNumero2();
         return suma;
     }
+    public int restar(){
+        int resta = getNumero1() - getNumero2();
+        return resta;
+    }
+    public int multiplicar(){
+        int multip = getNumero1() * getNumero2();
+        return multip;
+    }
+    public int dividir(){
+        int div = getNumero1() / getNumero2();
+        return div;
+    }
 }

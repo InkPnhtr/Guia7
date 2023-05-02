@@ -19,6 +19,9 @@ public class Ej3G7 {
         Operacion Op1 = new Operacion();
         Op1.crearOperacion();
         System.out.println("Suma = " + Op1.sumar());
+        System.out.println("Resta = " + Op1.restar());
+        System.out.println("Multip = " + Op1.multiplicar());
+        System.out.println("Div = " + Op1.dividir());
     }
     
 }
